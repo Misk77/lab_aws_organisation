@@ -1,5 +1,5 @@
 provider "aws" {
-  # Adding a credentials file that i can mofie when needed and also outside my repo
+  # Adding a credentials file that i can modify when needed and also lives outside all my repo
   shared_credentials_files = ["../tf_user/.creds"]
   profile                  = "privateprofile"
   region                   = "eu-north-1"
